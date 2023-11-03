@@ -1320,6 +1320,7 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
+
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
@@ -1563,4 +1564,4 @@ section {
     margin: -20px 0 30px 0;
   }
 }
- 
+ /* hi*/
