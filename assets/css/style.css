@@ -304,6 +304,7 @@ h6 {
     position: absolute;
   }
 }
+
 @media (max-width: 991px) {
   #header .logo img {
     max-width: 100%; 
