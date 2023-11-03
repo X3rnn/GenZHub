@@ -259,6 +259,12 @@ function showThankYouAlert() {
 
 //reset//
 function resetForm() {
-  // Reset the form fields to their initial values
-  document.getElementById("paymentForm").reset();
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("credit-card").value = "";
+  document.getElementById("expiry-date").value = "";
+  document.getElementById("cvv").value = "";
+
+  // Optionally, reset the total-amount field
+  document.getElementById("total-amount").value = "RM 269.00";
 }
