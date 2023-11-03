@@ -130,6 +130,7 @@ h6 {
 #logo{
   width: auto;
   height: 200px;
+
 }
 
 #header.fixed-top {
@@ -155,7 +156,9 @@ h6 {
   position: absolute;
   right: 82%;
   bottom: 5%;
+  
 }
+
 
 .scrolled-offset {
   margin-top: 70px;
@@ -291,6 +294,26 @@ h6 {
 .mobile-nav-toggle.bi-x {
   color: #cc1616;
 }
+@media (max-width: 768px) {
+  #header .logo img {
+    max-width: 100%; 
+    height: auto; 
+    right: auto; 
+    bottom: auto; 
+    top: 1%;
+    position: absolute;
+  }
+}
+@media (max-width: 991px) {
+  #header .logo img {
+    max-width: 100%; 
+    height: auto; 
+    right: auto; 
+    bottom: auto; 
+    top: 1%;
+    position: absolute;
+  }
+}
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
@@ -389,6 +412,8 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
 #hero {
   width: 100%;
   height: calc(120vh - 110px);
@@ -467,6 +492,15 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+
+}
+@media (min-width: 768px) {
+  .logo {
+      /* Adjust the logo size for larger screens */
+      max-width: 200px;
+       /* Example width */
+      /* You can also set a specific height if needed */
   }
 }
 
@@ -889,6 +923,14 @@ section {
   width: 550px;
   height: auto;
   margin-left: 15%;
+
+}
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-details-slider img {
+    width:100%; 
+    height: fit-content;
+    max-width: 300px;
+  }
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
